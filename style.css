@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+#calculator{
+    background: #79c44d;
+    width: 335px;
+    position: relative;
+}
+#result{
+    position: absolute;
+    font-size: 100px;
+    width: 250px;
+    height: 70px;
+    color: white;
+    margin: 0px;
+    border: white 1px solid;
+    left: 84px;
+    font-size: 50px;
+    justify-content: end
+}
+#toprow{
+    display: flex;
+
+}
+.op{
+    background: #8dc375
+}
+button{
+    width: 80px;
+    height: 70px;
+    background: none;
+    font-size: 30px;
+    outline: none;
+    cursor: pointer;
+}
+.sp:hover{
+    background: green;
+}
+.op:hover{
+    color: white;
+}

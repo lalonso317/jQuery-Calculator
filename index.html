@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="toprow">
+            <button class="clear, sp" data-value="Clear">C</button>
+            <div id="result"></div>
+        </div>
+        <div id="firstrow">
+            <button class="num"id="7" data-value="7">7</button>
+            <button id="8" class="num" data-value="8">8</button>
+            <button id="9" class="num" data-value="9">9</button>
+            <button id="divi" class="op"data-value="/">/</button>
+        </div>
+        <div id="secondrow">
+            <button id="4" class="num" data-value="4">4</button>
+            <button id="5" class="num"  data-value="5" >5</button>
+            <button id="6" class="num" data-value="6">6</button>
+            <button id="multi" class="op" data-value="*">*</button>
+        </div>
+        <div id="thirdrow">
+            <button id="1" class="num" data-value="1">1</button>
+            <button id="2" class="num" data-value="2">2</button>
+            <button id="3" class="num" data-value="3">3</button>
+            <button id="sub" class="op" data-value="-">-</button>
+        </div>
+        <div id="fourthrow">
+            <button id="0" class="num" data-value="0">0</button> 
+            <button id="dot" class="op"data- value=".">.</button>
+            <button id="equal" class="sp" data-value="=">=</button>
+            <button id="add" class="op" data-value="+">+</button>
+        </div>        
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
